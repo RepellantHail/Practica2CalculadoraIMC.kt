@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App para calcular IMC</string>
+    <string name="txtTituloIMC">Calculadora del Índice de Masa Corporal</string>
+    <string name="editEstatura">Ingresa tu estatura en metros</string>
+    <string name="editPeso">Ingresa tu peso en Kilogramos</string>
+    <string name="btnCalcularS">Calcular IMC</string>
+    <string name="txtIMC">Resultado IMC</string>
+
+    <string name="IMC1">"Delgadez Severa     "</string>
+    <string name="IMC2">"Delgadez            "</string>
+    <string name="IMC3">"Peso Saludable      "</string>
+    <string name="IMC4">"Sobrepeso           "</string>
+    <string name="IMC5">"Obesidad Moderada   "</string>
+    <string name="IMC6">"Obesidad Severa     "</string>
+    <string name="IMC7">"Obesidad Muy Severa "</string>
+    <string name="IMC8">"Out of range        "</string>
+
+</resources>

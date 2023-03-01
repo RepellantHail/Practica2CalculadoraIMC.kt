@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTituloIMC"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textFontWeight="1000"
+        android:textSize="20sp"
+        android:typeface="normal"></TextView>
+
+    <EditText
+        android:id="@+id/editEstatura"
+        android:hint="@string/editEstatura"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editPeso"
+        android:hint="@string/editPeso"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:text="@string/btnCalcularS"
+        android:layout_gravity="center"
+        android:onClick="calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <TextView
+        android:id="@+id/txtIMC"
+        android:text="@string/txtIMC"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
